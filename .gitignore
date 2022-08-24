@@ -1,2 +1,4 @@
-TYPE-CHECKER/node_modules/
-
+node_modules/
+package-lock.json
+package.json
+type-checker/node_modules/
