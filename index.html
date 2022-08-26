@@ -7,5 +7,55 @@
     <link rel="stylesheet" href="style.css" />
     <title>Document</title>
   </head>
-  <body></body>
+  <body>
+    <section class="options">
+      <h1>Type Checker</h1>
+      <div class="option">
+        <label for="your-text">Your text</label>
+
+        <input
+          name="sentence"
+          type="text"
+          id="sentence"
+          placeholder="Enter your text here"
+          value=""
+        />
+      </div>
+
+      <div class="option, option-slider">
+        <label for="type-size">
+          Type size <span class="typesize-output">64px</span>
+        </label>
+
+        <input
+          type="range"
+          min="12"
+          max="200"
+          name="typesize"
+          id="option-typesize"
+          value="64"
+        />
+      </div>
+
+      <div class="option">
+        <label for="leading"
+          >Leading <span class="line-height">1.5</span></label
+        >
+        <input
+          type="range"
+          name="line-height"
+          id="option-leading"
+          min="0.75"
+          max="2.5"
+          value="1.5"
+        />
+      </div>
+    </section>
+
+    <textarea class="output">
+      The quick brown fox jumps over the lazy dog
+    </textarea>
+
+    <script src="script.js"></script>
+  </body>
 </html>
